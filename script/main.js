@@ -36,28 +36,6 @@ Ball.prototype.draw = function() {
   ctx.fill();
 }
 
-testBall.x
-testBall.size
-testBall.color
-testBall.draw()
-
-Ball.prototype.update = function() {
-  if ((this.x + this.size) >= width) {
-    this.velX = -(this.velX);
-  }
-
-  if ((this.x - this.size) <= 0) {
-    this.velX = -(this.velX);
-  }
-
-  if ((this.y + this.size) >= height) {
-    this.velY = -(this.velY);
-  }
-
-  if ((this.y - this.size) <= 0) {
-    this.velY = -(this.velY);
-  }
-
-  this.x += this.velX;
-  this.y += this.velY;
-}
+beginPath()
+fileStyle.color
+arc(x,y,size)
